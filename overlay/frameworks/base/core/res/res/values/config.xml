@@ -302,16 +302,16 @@
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
         M 66,67.5
         a 20 20 0 1 0 67,0
-        a 20 20 0 1 0 -67,0 
-        Z 
-        M 66,0 
-        L 144,0 
-        Z 
-        M 0,0 
+        a 20 20 0 1 0 -67,0
+        Z
+        M 66,0
+        L 144,0
+        Z
+        M 0,0
         L 0,102.5
         @left
     </string>
-     
+
     <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
          one single bounding rect per device edge to the app via
          {@link DisplayCutout#getBoundingRect}. Note that this path should try to match the visual
@@ -319,14 +319,14 @@
          config_mainBuiltInDisplayCutout
     -->
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
-        M 68,36 
-        h 63 
-        v 63 
-        h -63 
-        Z 
+        M 68,36
+        h 63
+        v 63
+        h -63
+        Z
         @left
     </string>
-     
+
     <!-- Whether the display cutout region of the main built-in display should be forced to
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
     -->
@@ -341,7 +341,4 @@
 
      <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
     <integer name="config_screenRecorderMaxFramerate">90</integer>
-
-     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
-    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/qcom-battery/fastchg_mode</string>
 </resources>
