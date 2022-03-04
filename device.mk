@@ -7,9 +7,6 @@
 # Inherit from sm8350-common
 $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
-# Dalvik
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
-
 # Display
 PRODUCT_PRODUCT_PROPERTIES += \
     vendor.display.use_smooth_motion=1
