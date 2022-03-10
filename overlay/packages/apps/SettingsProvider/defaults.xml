@@ -21,7 +21,7 @@
     <string name="def_device_name_simple">Mi 11 Lite 5G</string>
 
     <!-- Disable UI touch sounds by default -->
-    <bool name="def_sound_effects_enabled">false</bool>
+    <bool name="def_sound_effects_enabled">true</bool>
 
     <!-- Default screen brightness, from 0 to 255. 78 is 30%. -->
     <integer name="def_screen_brightness">50</integer>

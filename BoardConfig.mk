@@ -19,6 +19,14 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_renoir
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/renoir-qgki_defconfig
 
+# Kernel modules
+BOOT_KERNEL_MODULES := \
+    hwid.ko \
+    focaltech_touch.ko \
+    goodix_core.ko \
+    xiaomi_touch.ko
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
+
 # Partitions
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 114001162240
