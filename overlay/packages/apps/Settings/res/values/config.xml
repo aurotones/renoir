@@ -7,4 +7,7 @@
 <resources>
      <!-- Whether to show min/max refresh rate in display settings -->
      <bool name="config_show_refresh_rate_controls">true</bool>
+
+     <!-- Whether or not homepage should display user's account avatar -->
+     <bool name="config_show_avatar_in_homepage">false</bool>
 </resources>
