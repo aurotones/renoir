@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Display
+PRODUCT_PRODUCT_PROPERTIES += \
+    vendor.display.use_smooth_motion=1
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info_shimaidp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/audio_platform_info_shimaidp.xml \
