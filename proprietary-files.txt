@@ -68,8 +68,8 @@ vendor/lib64/liba2dpoffload.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioroute_ext.so
 
-# Audio firmware
-vendor/firmware/tfa98xx.cnt
+# Audio firmware - from miui_GLOBAL_RENOIR_V13.0.2.0.SKIMIXM
+vendor/firmware/tfa98xx.cnt|5dde8f0271ac48148af1ed31e482fcdc
 
 # Camera
 vendor/lib64/camera/com.qti.actuator.renoir_ofilm_s5kgw3_dw9800_wide.so
@@ -466,8 +466,8 @@ vendor/etc/camera/xiaomi/thirdpartydualbokehyuvsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartyjpegsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartysnapshot.json
 
-# Camera-firmware
-vendor/firmware/CAMERA_ICP.elf
+# Camera-firmware - from miui_GLOBAL_RENOIR_V13.0.2.0.SKIMIXM
+vendor/firmware/CAMERA_ICP.elf|c0c7d852caef1909b7b1b198364ce634
 
 # Camera-sensors
 vendor/lib64/libjpege.so
@@ -706,9 +706,9 @@ vendor/lib64/sensors.elliptic@2.0.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.detect.so
 
-# Touchscreen firmware
-vendor/firmware/goodix_gt9897t_cfg_k9.bin
-vendor/firmware/goodix_gt9897t_fw_k9.bin
+# Touchscreen firmware - from miui_GLOBAL_RENOIR_V13.0.2.0.SKIMIXM
+vendor/firmware/goodix_gt9897t_cfg_k9.bin|d1f5200f8e56de0562643d0a84b1238c
+vendor/firmware/goodix_gt9897t_fw_k9.bin|e7a19df8d8cfaa392fe5b56a70d2f419
 
 # Thermal config
 vendor/etc/thermal-4k.conf
@@ -739,6 +739,6 @@ vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermal-youtube.conf
 
-# Vibrator firmware
-vendor/firmware/aw8624_haptic.bin
-vendor/firmware/aw8624_rtp.bin
+# Vibrator firmware - from miui_GLOBAL_RENOIR_V13.0.2.0.SKIMIXM
+vendor/firmware/aw8624_haptic.bin|33be42406b595c62d1dc727da209c872
+
